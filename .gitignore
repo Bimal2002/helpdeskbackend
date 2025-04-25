@@ -90,3 +90,4 @@ debug.log
 # Build files
 dist/
 build/ 
+.vercel
