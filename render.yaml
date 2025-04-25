@@ -2,7 +2,7 @@ services:
   - type: web
     name: helpdesk-server
     runtime: node
-    buildCommand: npm install
+    buildCommand: npm install && npm install -g nodemon
     startCommand: npm run dev
     envVars:
       - key: NODE_ENV
